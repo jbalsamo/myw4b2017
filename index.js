@@ -1,1 +1,3 @@
-var hello = function(name) {}
+var hello = function(name) {
+    namearea = document.getElementById("");
+};
