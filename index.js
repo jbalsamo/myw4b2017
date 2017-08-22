@@ -3,4 +3,6 @@ var hello = function(name) {
     namearea.innerHTML(name);
 };
 
-$(document).ready({});
+$(document).ready(function() {
+    this.hello("Joe");
+});
